@@ -1,0 +1,41 @@
+.aside{
+    width:20%;
+    background-color: #0F1E54;
+    padding: 1rem;
+    min-height: 100vh;
+    position: sticky;
+}
+.aside .effect{
+    position: fixed;
+    width: 20%;
+}
+
+.aside .effect h2{
+    color: #ECF5FF;
+    position: sticky;
+    font-size: 24px;
+}
+
+.aside .effect h2 span{
+    color:#567AFB;
+}
+
+.aside .effect ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.aside .effect ul li{
+    color: #ECF5FF;
+    font-size: 18px;
+    transition: .5s ease;
+}
+
+.aside .effect ul li:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+}
